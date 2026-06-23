@@ -16,12 +16,12 @@ const About = () => {
     {
       icon: <Brain className="w-8 h-8" />,
       title: "IA & ML",
-      items: ["IA", "Machine Learning"],
+      items: ["CNNs", "Transformers"],
     },
     {
       icon: <Layout className="w-8 h-8" />,
       title: "Conceitos",
-      items: ["SPA", "Responsive Design", "Git & GitHub"],
+      items: ["Boas Práticas", "Responsive Design", "Git & GitHub"],
     },
   ];
 
@@ -43,7 +43,7 @@ const About = () => {
                 explorar o mundo do desenvolvimento de software. Atualmente,
                 estou cursando Análise e Desenvolvimento de Sistemas e IA onde
                 tenho adquirido conhecimentos sólidos em diversas áreas da
-                computação. Gosto de trabalhar com desenvolvimento web, IA e
+                computação. Gosto de trabalhar com desenvolvimento web e
                 aprendizado de máquina.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">

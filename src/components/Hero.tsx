@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
-import fotoPerfilSrc from "@/assets/perfil-foto.jpg";
+import fotoPerfilSrc from "@/assets/perfil_foto.jpeg";
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -20,12 +20,14 @@ const Hero = () => {
       <div className="container mx-auto relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-4 animate-in fade-in slide-in-from-bottom duration-700">
-            <div className="mx-auto w-36 h-36 md:w-48 md:h-48 rounded-full overflow-hidden ring-4 ring-primary/30">
-              <img
-                src={fotoPerfilSrc}
-                alt="Foto de Aline Lima"
-                className="w-full h-full object-cover"
-              />
+            <div className="mx-auto w-36 h-36 md:w-48 md:h-48 rounded-full p-[3px] bg-gradient-to-br from-primary via-accent to-primary/40 shadow-[0_0_32px_rgba(0,200,180,0.25)]">
+              <div className="w-full h-full rounded-full overflow-hidden bg-background">
+                <img
+                  src={fotoPerfilSrc}
+                  alt="Foto de Aline Lima"
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
             </div>
             <p className="text-primary text-lg font-medium">Olá, eu sou</p>
             <h1 className="text-5xl md:text-7xl font-bold text-foreground">
